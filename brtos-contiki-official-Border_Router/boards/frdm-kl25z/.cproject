@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.380910533">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.380910533" moduleId="org.eclipse.cdt.core.settings" name="FLASH">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.managedbuilder.core.ManagedBuildManager" point="org.eclipse.cdt.core.ScannerInfoProvider"/>
+					<extension id="com.freescale.core.ide.cdt.errorParsers.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="brtos-frdm-kl25z-cw10" buildArtefactType="org.eclipse.cdt.cross.arm.gnu.buildArtefactType.application" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.cross.arm.gnu.buildArtefactType.application" buildReferences="true" buildReferencingConfigurations="false" description="" errorParsers="org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.GLDErrorParser;org.eclipse.cdt.core.GASErrorParser;com.freescale.core.ide.cdt.errorParsers.GCCErrorParser;org.eclipse.cdt.core.CWDLocator;" id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.380910533" isPrebuildInvalidatingBuild="false" isVersionInfoProjSpecific="false" name="FLASH" parent="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug" produceBuildErrorsWithMissingReferences="true">
+					<folderInfo id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.380910533." name="/" resourcePath="">
+						<toolChain errorParsers="" id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.toolchain.debug.2141680248" name="ARM Ltd Windows GCC (G++ Lite)" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.toolchain.debug">
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.option.debugging.level.1497252545" name="Debug level" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.option.debugging.level" value="org.eclipse.cdt.cross.arm.gnu.base.option.debugging.level.default" valueType="enumerated"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.option.target.processor.1647204553" name="Processor" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.option.target.processor" value="org.eclipse.cdt.cross.arm.gnu.base.option.mcpu.cortex-m0" valueType="enumerated"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.toolchain.sharedoption.librarian.249721640" name="Enable automatic library configurations" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.toolchain.sharedoption.librarian" value="true" valueType="boolean"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.option.debugging.other.1195837774" name="Other debugging flags" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.option.debugging.other" value="-gstrict-dwarf" valueType="string"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.option.addtools.printsize.1704837003" name="Print Size" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.option.addtools.printsize" value="true" valueType="boolean"/>
+							<option id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.toolchain.sharedoption.model.882513191" name="Model" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.toolchain.sharedoption.model" value="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.toolchain.sharedoption.model.ewl_c" valueType="enumerated"/>
+							<targetPlatform id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.platform.debug.1891636588" isAbstract="false" name="Windows Platform" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.platform.debug"/>
+							<builder buildPath="${ProjDirPath}/FLASH" errorParsers="org.eclipse.cdt.core.GmakeErrorParser;org.eclipse.cdt.core.CWDLocator" id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.builder.debug.1613646872" keepEnvironmentInBuildfile="false" name="ARM Ltd Windows GNU Make builder" parallelBuildOn="true" parallelBuildWorkspaceOn="true" parallelizationNumber="-1" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.builder.debug"/>
+							<tool errorParsers="com.freescale.core.ide.cdt.errorParsers.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser" id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.assembler.debug.1269357536" name="ARM Ltd Windows GCC Assembler" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.assembler.debug">
+								<option id="org.eclipse.cdt.cross.arm.gnu.assembler.option.misc.enable.lstfilename.1377679074" name="Enable Assembler Listing" superClass="org.eclipse.cdt.cross.arm.gnu.assembler.option.misc.enable.lstfilename" value="false" valueType="boolean"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.assembler.option.include.paths.1562635189" name="Include paths (-I)" superClass="org.eclipse.cdt.cross.arm.gnu.assembler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Generated_Code&quot;"/>
+								</option>
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.assembler.base.input.1263459098" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.assembler.base.input"/>
+							</tool>
+							<tool errorParsers="com.freescale.core.ide.cdt.errorParsers.GCCErrorParser" id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.c.compiler.debug.1643063766" name="ARM Ltd Windows GCC C Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.c.compiler.debug">
+								<option id="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.level.782580157" name="Optimization level" superClass="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.level" value="org.eclipse.cdt.cross.arm.gnu.base.option.optimization.level.size" valueType="enumerated"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.misc.enable.lstfilename.330493327" name="Enable Assembler Listing" superClass="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.misc.enable.lstfilename" value="false" valueType="boolean"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.include.paths.1906585517" name="Include paths (-I)" superClass="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Headers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Settings/Startup_Code&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ARM_GCC_Support/ewl/EWL_C/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ARM_GCC_Support/ewl/EWL_Runtime/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Generated_Code&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Static_Code\PDD&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Static_Code\IO_Map&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources/drivers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources/drivers/CPU&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources/drivers/DAC&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources/drivers/MCG&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources/drivers/LPO&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources/drivers/MMA8451&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources/USB/&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources/USB/cdc&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources/USB/class&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources/USB/common&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources/USB/common/kinetis&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources/USB/driver&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources/USB/driver/kinetis&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Sources/drivers/ADC&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../brtos/includes&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../hal/GCC_CORTEX-M0&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../contiki/core/net/rpl&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../contiki/core/net/ip&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../contiki/platform/brtos&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../contiki/platform/brtos/cpu&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../libs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../contiki/examples/rpl-border-router&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../contiki/core/&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../contiki/core/sys&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../contiki/core/lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../contiki/core/dev&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../contiki/core/cfs&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../../contiki/platform/brtos/boards&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.functionsections.1254622906" name="Function sections (-ffunction-sections)" superClass="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.functionsections" value="true" valueType="boolean"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.datasections.1515179762" name="Data sections (-fdata-sections)" superClass="org.eclipse.cdt.cross.arm.gnu.c.compiler.option.optimization.datasections" value="true" valueType="boolean"/>
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.c.compiler.base.input.359563108" name="ARM Ltd Windows GCC C Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.c.compiler.base.input"/>
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.c.compiler.input.asmSourcePreproc.112682330" superClass="org.eclipse.cdt.cross.arm.gnu.c.compiler.input.asmSourcePreproc"/>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.cpp.compiler.debug.368861588" name="ARM Ltd Windows GCC C++ Compiler" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.cpp.compiler.debug">
+								<option id="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.optimization.level.1255953600" name="Optimization level" superClass="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.optimization.level" value="org.eclipse.cdt.cross.arm.gnu.base.option.optimization.level.none" valueType="enumerated"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.misc.enable.lstfilename.2070182579" name="Enable Assembler Listing" superClass="org.eclipse.cdt.cross.arm.gnu.cpp.compiler.option.misc.enable.lstfilename" value="false" valueType="boolean"/>
+							</tool>
+							<tool errorParsers="org.eclipse.cdt.core.GLDErrorParser" id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.c.linker.debug.1770321933" name="ARM Ltd Windows GCC C Linker" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.c.linker.debug">
+								<option id="org.eclipse.cdt.cross.arm.gnu.c.link.option.otherflags.2078062142" name="Other flags" superClass="org.eclipse.cdt.cross.arm.gnu.c.link.option.otherflags" value="-n" valueType="string"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.c.link.option.nostart.633324681" name="Do not use standard start files (-nostartfiles)" superClass="org.eclipse.cdt.cross.arm.gnu.c.link.option.nostart" value="false" valueType="boolean"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.c.link.option.gcsections.979230262" name="Remove unused sections (-Xlinker --gc-sections)" superClass="org.eclipse.cdt.cross.arm.gnu.c.link.option.gcsections" value="true" valueType="boolean"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.c.link.option.paths.102089504" name="Library search path (-L)" superClass="org.eclipse.cdt.cross.arm.gnu.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ARM_GCC_Support/ewl/lib/armv6-m&quot;"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arm.gnu.c.link.option.scriptfile.2041223645" name="Script file (-T)" superClass="org.eclipse.cdt.cross.arm.gnu.c.link.option.scriptfile" value="${ProjDirPath}/Project_Settings/Linker_Files/ProcessorExpert.ld" valueType="string"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.c.link.option.linkorder.542128530" name="Link Order" superClass="org.eclipse.cdt.cross.arm.gnu.c.link.option.linkorder" valueType="stringList">
+									<listOptionValue builtIn="false" value="GCC_CORTEX-M0/HAL.c"/>
+									<listOptionValue builtIn="false" value="Generated_Code/Cpu.c"/>
+									<listOptionValue builtIn="false" value="Generated_Code/PE_LDD.c"/>
+									<listOptionValue builtIn="false" value="Generated_Code/Vectors.c"/>
+									<listOptionValue builtIn="false" value="Project_Settings/Startup_Code/__arm_end.c"/>
+									<listOptionValue builtIn="false" value="Project_Settings/Startup_Code/__arm_start.c"/>
+									<listOptionValue builtIn="false" value="Sources/Events.c"/>
+									<listOptionValue builtIn="false" value="Sources/USB/cdc/hcc_terminal.c"/>
+									<listOptionValue builtIn="false" value="Sources/USB/cdc/usb_descriptor.c"/>
+									<listOptionValue builtIn="false" value="Sources/USB/cdc/usb_terminal.c"/>
+									<listOptionValue builtIn="false" value="Sources/USB/cdc/usb_terminal_commands.c"/>
+									<listOptionValue builtIn="false" value="Sources/USB/cdc/virtual_com.c"/>
+									<listOptionValue builtIn="false" value="Sources/USB/class/usb_cdc.c"/>
+									<listOptionValue builtIn="false" value="Sources/USB/class/usb_cdc_pstn.c"/>
+									<listOptionValue builtIn="false" value="Sources/USB/common/usb_class.c"/>
+									<listOptionValue builtIn="false" value="Sources/USB/common/usb_framework.c"/>
+									<listOptionValue builtIn="false" value="Sources/USB/driver/kinetis/usb_dci_kinetis.c"/>
+									<listOptionValue builtIn="false" value="Sources/USB/driver/usb_driver.c"/>
+									<listOptionValue builtIn="false" value="Sources/USB/driver/usbevent.c"/>
+									<listOptionValue builtIn="false" value="Sources/drivers/CPU/cpu.c"/>
+									<listOptionValue builtIn="false" value="Sources/drivers/DAC/DAC.c"/>
+									<listOptionValue builtIn="false" value="Sources/drivers/LPO/LPO.c"/>
+									<listOptionValue builtIn="false" value="Sources/drivers/MCG/mcg.c"/>
+									<listOptionValue builtIn="false" value="Sources/drivers/MMA8451/accel.c"/>
+									<listOptionValue builtIn="false" value="Sources/main.c"/>
+									<listOptionValue builtIn="false" value="Sources/sa_mtb.c"/>
+									<listOptionValue builtIn="false" value="Sources/tasks.c"/>
+									<listOptionValue builtIn="false" value="app/main_app.c"/>
+									<listOptionValue builtIn="false" value="brtos/BRTOS.c"/>
+									<listOptionValue builtIn="false" value="brtos/OSInfo.c"/>
+									<listOptionValue builtIn="false" value="brtos/OS_RTC.c"/>
+									<listOptionValue builtIn="false" value="brtos/mbox.c"/>
+									<listOptionValue builtIn="false" value="brtos/mutex.c"/>
+									<listOptionValue builtIn="false" value="brtos/queue.c"/>
+									<listOptionValue builtIn="false" value="brtos/semaphore.c"/>
+									<listOptionValue builtIn="false" value="brtos/timers.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/cfs/cfs-coffee.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/dev/leds.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/dev/nullradio.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/dev/serial-line.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/dev/slip.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/lib/aes-128.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/lib/assert.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/lib/crc16.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/lib/gcr.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/lib/ifft.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/lib/list.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/lib/me.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/lib/me_tabs.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/lib/memb.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/lib/mmem.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/lib/petsciiconv.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/lib/print-stats.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/lib/random.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/lib/ringbuf.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/lib/sensors.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/lib/settings.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/lib/strncasecmp/strncasecmp.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/lib/trickle-timer.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/http-socket/http-socket.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip/dhcpc.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip/ip64-addr.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip/psock.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip/resolv.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip/simple-udp.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip/slipdev.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip/tcp-socket.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip/tcpip.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip/udp-socket.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip/uip-debug.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip/uip-nameserver.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip/uip-packetqueue.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip/uip-split.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip/uip-udp-packet.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip/uiplib.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip64/ip64-addrmap.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip64/ip64-arp.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip64/ip64-dhcpc.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip64/ip64-dns64.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip64/ip64-eth-interface.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip64/ip64-eth.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip64/ip64-ipv4-dhcp.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip64/ip64-null-driver.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip64/ip64-slip-interface.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip64/ip64-special-ports.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ip64/ip64.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ipv6/multicast/roll-tm.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ipv6/multicast/smrf.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ipv6/multicast/uip-mcast6-route.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ipv6/multicast/uip-mcast6-stats.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ipv6/sicslowpan.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ipv6/uip-ds6-nbr.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ipv6/uip-ds6-route.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ipv6/uip-ds6.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ipv6/uip-icmp6.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ipv6/uip-nd6.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/ipv6/uip6.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/linkaddr.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/llsec/anti-replay.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/llsec/ccm-star.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/llsec/noncoresec/noncoresec.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/llsec/nullsec.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/mac/contikimac/contikimac-framer.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/mac/contikimac/contikimac.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/mac/csma.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/mac/cxmac/cxmac.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/mac/frame802154.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/mac/framer-802154.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/mac/framer-nullmac.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/mac/framer.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/mac/mac-sequence.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/mac/mac.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/mac/nullmac.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/mac/nullrdc-noframer.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/mac/nullrdc.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/mac/phase.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/mac/sicslowmac/sicslowmac.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/nbr-table.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/netstack.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/packetbuf.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/queuebuf.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/abc.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/announcement.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/broadcast-announcement.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/broadcast.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/chameleon-bitopt.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/chameleon-raw.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/chameleon.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/channel.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/collect-link-estimate.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/collect-neighbor.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/collect.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/ipolite.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/mesh.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/multihop.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/neighbor-discovery.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/netflood.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/packetqueue.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/polite-announcement.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/polite.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/rime.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/rimestats.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/rmh.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/route-discovery.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/route.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/rucb.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/rudolph1.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/rudolph2.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/runicast.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/stbroadcast.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/stunicast.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/timesynch.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/trickle.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rime/unicast.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rpl/rpl-dag-root.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rpl/rpl-dag.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rpl/rpl-ext-header.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rpl/rpl-icmp6.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rpl/rpl-mrhof.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rpl/rpl-of0.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rpl/rpl-timers.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/net/rpl/rpl.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/sys/arg.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/sys/autostart.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/sys/compower.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/sys/ctimer.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/sys/energest.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/sys/etimer.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/sys/mt.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/sys/process.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/sys/procinit.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/sys/rtimer.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/sys/stimer.c"/>
+									<listOptionValue builtIn="false" value="contiki/contiki-compat/sys/timer.c"/>
+									<listOptionValue builtIn="false" value="contiki/examples/rpl-border-router/border-router.c"/>
+									<listOptionValue builtIn="false" value="contiki/examples/rpl-border-router/httpd-simple.c"/>
+									<listOptionValue builtIn="false" value="contiki/examples/rpl-border-router/slip-bridge.c"/>
+									<listOptionValue builtIn="false" value="contiki/platform/kl25z/contiki-cpu/clock.c"/>
+									<listOptionValue builtIn="false" value="contiki/platform/kl25z/contiki-cpu/leds-arch.c"/>
+									<listOptionValue builtIn="false" value="contiki/platform/kl25z/contiki-cpu/mtarch.c"/>
+									<listOptionValue builtIn="false" value="contiki/platform/kl25z/contiki-cpu/rtimer-arch.c"/>
+									<listOptionValue builtIn="false" value="contiki/platform/kl25z/contiki-cpu/slip-arch.c"/>
+									<listOptionValue builtIn="false" value="contiki/platform/kl25z/contiki-cpu/watchdog.c"/>
+									<listOptionValue builtIn="false" value="contiki/platform/kl25z/contiki-cpu/xmem.c"/>
+									<listOptionValue builtIn="false" value="contiki/platform/kl25z/contiki-main.c"/>
+									<listOptionValue builtIn="false" value="libs/printf_lib.c"/>
+									<listOptionValue builtIn="false" value="libs/time_lib.c"/>
+									<listOptionValue builtIn="false" value="libs/utils.c"/>
+									<listOptionValue builtIn="false" value="Generated_Code/INT_PendableSrvReq.c"/>
+									<listOptionValue builtIn="false" value="Generated_Code/INT_SVCall.c"/>
+									<listOptionValue builtIn="false" value="Generated_Code/INT_SysTick.c"/>
+									<listOptionValue builtIn="false" value="Generated_Code/INT_USB0.c"/>
+								</option>
+								<option id="org.eclipse.cdt.cross.arm.gnu.c.link.option.other.printmap.7425549" name="Print link map (-Xlinker --print-map)" superClass="org.eclipse.cdt.cross.arm.gnu.c.link.option.other.printmap" value="true" valueType="boolean"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.c.linker.option.other.verbose.1930216675" name="Verbose (-v)" superClass="org.eclipse.cdt.cross.arm.gnu.c.linker.option.other.verbose" value="true" valueType="boolean"/>
+								<inputType id="org.eclipse.cdt.cross.arm.gnu.c.linker.input.1444462702" superClass="org.eclipse.cdt.cross.arm.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.cpp.linker.debug.170452710" name="ARM Ltd Windows GCC C++ Linker" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.cpp.linker.debug"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.archiver.base.2137784129" name="ARM Ltd Windows GCC Archiver" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.archiver.base"/>
+							<tool errorParsers="com.freescale.core.ide.cdt.errorParsers.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser" id="com.freescale.cdt.cross.arm.gnu.sourcery.windows.elf.disassembler.debug.810688284" name="ARM Ltd Windows GCC Disassembler" superClass="com.freescale.cdt.cross.arm.gnu.sourcery.windows.elf.disassembler.debug"/>
+							<tool errorParsers="com.freescale.core.ide.cdt.errorParsers.GCCErrorParser" id="com.freescale.cdt.cross.arm.gnu.sourcery.windows.elf.preprocessor.debug.741764657" name="ARM Ltd Windows GCC C Preprocessor" superClass="com.freescale.cdt.cross.arm.gnu.sourcery.windows.elf.preprocessor.debug">
+								<option id="com.freescale.cdt.cross.arm.gnu.preprocessor.dirs.include.paths.840568452" name="Include paths (-I)" superClass="com.freescale.cdt.cross.arm.gnu.preprocessor.dirs.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Headers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Settings/Startup_Code&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ARM_GCC_Support/ewl/EWL_C/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ARM_GCC_Support/ewl/EWL_Runtime/include&quot;"/>
+								</option>
+								<inputType id="com.freescale.cdt.cross.arm.gnu.preprocessor.source.193428149" name="Preprocessor Input" superClass="com.freescale.cdt.cross.arm.gnu.preprocessor.source"/>
+							</tool>
+							<tool id="com.freescale.cdt.cross.arm.gnu.sourcery.windows.elf.cpp.preprocessor.debug.1928583806" name="ARM Ltd Windows GCC C++ Preprocessor" superClass="com.freescale.cdt.cross.arm.gnu.sourcery.windows.elf.cpp.preprocessor.debug">
+								<option id="com.freescale.cdt.cross.arm.gnu.preprocessor.dirs.include.paths.1331511395" name="Include paths (-I)" superClass="com.freescale.cdt.cross.arm.gnu.preprocessor.dirs.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Headers&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Settings/Startup_Code&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ARM_GCC_Support/ewl/EWL_C/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${MCUToolsBaseDir}/ARM_GCC_Support/ewl/EWL_Runtime/include&quot;"/>
+								</option>
+							</tool>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.createflash.debug.975404130" name="ARM Ltd Windows GNU Create Flash Image" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.createflash.debug"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.createlisting.debug.1161260071" name="ARM Ltd Windows GNU Create Listing" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.createlisting.debug"/>
+							<tool id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.printsize.debug.1799965478" name="ARM Ltd Windows GNU Print Size" superClass="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.printsize.debug">
+								<option id="org.eclipse.cdt.cross.arm.gnu.printsize.general.hex.660755935" name="Hex" superClass="org.eclipse.cdt.cross.arm.gnu.printsize.general.hex" value="true" valueType="boolean"/>
+								<option id="org.eclipse.cdt.cross.arm.gnu.printsize.general.totals.971722970" name="Show Totals" superClass="org.eclipse.cdt.cross.arm.gnu.printsize.general.totals" value="true" valueType="boolean"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.380910533..settings/com.freescale.processorexpert.core.prefs" name="com.freescale.processorexpert.core.prefs" rcbsApplicability="disable" resourcePath=".settings/com.freescale.processorexpert.core.prefs" toolsToInvoke=""/>
+					<sourceEntries>
+						<entry excluding="FatFS|devices|boards|app|Sources/Vectors.c|Sources/drivers/utils.c|Sources/USB/cdc/debug_stack.c|libs|contiki|GCC_CORTEX-M0|brtos|.settings/com.freescale.processorexpert.core.prefs" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="GCC_CORTEX-M0"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="app"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="brtos"/>
+						<entry excluding="core/net/ipv6/sicslowpan.c|platform/kl25z|core/net/llsec/noncoresec|core/net/http-socket|core/loader|core/ctk|core/cfs/cfs-xmem.c|core/cfs/cfs-ram.c|core/cfs/cfs-posix-dir.c|core/cfs/cfs-posix.c|core/cfs/cfs-eeprom.c|apps/webserver|core/net/ipv4|core/net/ip64" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="contiki"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="libs"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="brtos-frdm-kl25z-cw10.org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.718955962" name="ARM Cross Target Application" projectType="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.380910533;org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.380910533.;org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.assembler.debug.1269357536;org.eclipse.cdt.cross.arm.gnu.sourcery.windows.assembler.base.input.1263459098">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.cross.arm.gnu.ARM_CS_GCCWinManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.380910533;org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.debug.380910533.;org.eclipse.cdt.cross.arm.gnu.sourcery.windows.elf.c.compiler.debug.1643063766;org.eclipse.cdt.cross.arm.gnu.sourcery.windows.c.compiler.base.input.359563108">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.cross.arm.gnu.ARM_CS_GCCWinManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="FLASH">
+			<resource resourceType="PROJECT" workspacePath="/frdm-kl25z"/>
+		</configuration>
+	</storageModule>
+</cproject>

@@ -1,0 +1,10 @@
+#include "xhw_memmap.h"
+//#define MTB_BASE                0xF0000000  // Micro Trace Buffer (MTB) registers
+
+//#include "xhw_ints.h"
+
+
+usb_devapi.h
+#if (defined(__CWCC__)||defined(__GNUC__))
+	//#pragma options align = reset
+	#pragma pack()
