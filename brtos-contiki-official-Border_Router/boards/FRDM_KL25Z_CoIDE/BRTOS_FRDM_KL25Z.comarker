@@ -16,8 +16,8 @@
 <attrib name="registered" value="true"/>
 <attrib name="path" value="/BRTOS_FRDM_KL25Z/contiki/platform/mrf24j40/mrf24j40.c"/>
 <attrib name="org.eclipse.cdt.debug.core.sourceHandle" value="C:\Users\Steppenwolf\OneDrive\Documentos\TCC1\brtos_contiki_backup_official\brtos-contiki-official-Border_Router\contiki\platform\mrf24j40\mrf24j40.c"/>
-<attrib name="org.eclipse.debug.core.enabled" value="true"/>
 <attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
+<attrib name="org.eclipse.debug.core.enabled" value="true"/>
 </marker>
 </breakpoint>
 </breakpoints>
