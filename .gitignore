@@ -45,3 +45,8 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+BRTOS_FRDM_KL25Z
+/brtos-contiki-official-Border_Router/boards/FRDM_KL25Z_CoIDE/BRTOS_FRDM_KL25Z.comemgui
+/brtos-contiki-official-Border_Router/boards/FRDM_KL25Z_CoIDE/BRTOS_FRDM_KL25Z.coproj
+/brtos-contiki-official-Border_Router/boards/FRDM_KL25Z_CoIDE/BRTOS_FRDM_KL25Z.cogui
+/brtos-contiki-official-Border_Router/boards/FRDM_KL25Z_CoIDE/BRTOS_FRDM_KL25Z.comarker
