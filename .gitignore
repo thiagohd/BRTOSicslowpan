@@ -13,6 +13,9 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+*.comarker
+*.coproj
+*.cogui
 
 # Windows shortcuts
 *.lnk
@@ -45,3 +48,4 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+BRTOS_FRDM_KL25Z
