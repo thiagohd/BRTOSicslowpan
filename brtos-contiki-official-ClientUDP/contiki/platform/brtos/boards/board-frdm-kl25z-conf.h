@@ -90,7 +90,7 @@
 #define UIP_CONF_IPV6_REASSEMBLY      	1	// Do we do IPv6 fragmentation?
 #define UIP_CONF_NETIF_MAX_ADDRESSES 	3	// Default number of IPv6 addresses associated to the node's interface
 #define UIP_CONF_DS6_DEFRT_NBU   		2	// Minimum number of default routers
-#define UIP_CONF_DS6_PREFIX_NBU  		2	// Default number of IPv6 prefixes associated to the node's interface
+#define UIP_CONF_DS6_PREFIX_NBU  		1	// Default number of IPv6 prefixes associated to the node's interface
 #define UIP_CONF_MAX_ROUTES   			10
 #define UIP_CONF_DS6_ADDR_NBU    		4
 #define UIP_CONF_DS6_MADDR_NBU   		0

@@ -148,7 +148,7 @@ void init_net(uint8_t node_id) {
 #endif
 
 #if NETSTACK_CONF_WITH_IPV6 || NETSTACK_CONF_WITH_IPV4
-	//process_start(&tcpip_process, NULL);
+	process_start(&tcpip_process, NULL);
 #endif
 
 	lladdr = uip_ds6_get_link_local(-1);
