@@ -173,6 +173,7 @@ static void sprint_ip6(uip_ip6addr_t addr) {
 }
 #endif /* NETSTACK_CONF_WITH_IPV6 */
 /*---------------------------------------------------------------------------*/
+void start_udp_server_task(void);
 
 int another_net(void) {
 
@@ -196,8 +197,7 @@ int another_net(void) {
 	procinit_init();
 
 	autostart_start(autostart_processes);
-
-
+	start_udp_server_task();
 
 	PRINTF("Processes running\n");
 

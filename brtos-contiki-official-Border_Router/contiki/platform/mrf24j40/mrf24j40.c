@@ -240,14 +240,22 @@ void mrf24j40_set_short_mac_addr(uint16_t addr) {
  */
 void mrf24j40_set_extended_mac_addr(uint64_t addr) {
 	volatile uint64_t addr2 = addr;
-	set_short_add_mem(MRF24J40_EADR0, (uint8_t) addr2);
-	set_short_add_mem(MRF24J40_EADR1, (uint8_t)(addr2 >> 8));
-	set_short_add_mem(MRF24J40_EADR2, (uint8_t)(addr2 >> 16));
-	set_short_add_mem(MRF24J40_EADR3, (uint8_t)(addr2 >> 24));
-	set_short_add_mem(MRF24J40_EADR4, (uint8_t)(addr2 >> 32));
-	set_short_add_mem(MRF24J40_EADR5, (uint8_t)(addr2 >> 40));
-	set_short_add_mem(MRF24J40_EADR6, (uint8_t)(addr2 >> 48));
-	set_short_add_mem(MRF24J40_EADR7, (uint8_t)(addr2 >> 56));
+	//set_short_add_mem(MRF24J40_EADR0, (uint8_t) addr2);
+	//set_short_add_mem(MRF24J40_EADR1, (uint8_t)(addr2 >> 8));
+	//set_short_add_mem(MRF24J40_EADR2, (uint8_t)(addr2 >> 16));
+	//set_short_add_mem(MRF24J40_EADR3, (uint8_t)(addr2 >> 24));
+	//set_short_add_mem(MRF24J40_EADR4, (uint8_t)(addr2 >> 32));
+	//set_short_add_mem(MRF24J40_EADR5, (uint8_t)(addr2 >> 40));
+	//set_short_add_mem(MRF24J40_EADR6, (uint8_t)(addr2 >> 48));
+	//set_short_add_mem(MRF24J40_EADR7, (uint8_t)(addr2 >> 56));
+	set_short_add_mem(MRF24J40_EADR7, (uint8_t) addr2);
+	set_short_add_mem(MRF24J40_EADR6, (uint8_t)(addr2 >> 8));
+	set_short_add_mem(MRF24J40_EADR5, (uint8_t)(addr2 >> 16));
+	set_short_add_mem(MRF24J40_EADR4, (uint8_t)(addr2 >> 24));
+	set_short_add_mem(MRF24J40_EADR3, (uint8_t)(addr2 >> 32));
+	set_short_add_mem(MRF24J40_EADR2, (uint8_t)(addr2 >> 40));
+	set_short_add_mem(MRF24J40_EADR1, (uint8_t)(addr2 >> 48));
+	set_short_add_mem(MRF24J40_EADR0, (uint8_t)(addr2 >> 56));
 }
 /*---------------------------------------------------------------------------*/
 /**
