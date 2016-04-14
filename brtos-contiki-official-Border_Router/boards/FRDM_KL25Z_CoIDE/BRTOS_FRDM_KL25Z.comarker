@@ -14,8 +14,13 @@
 <attrib name="workingset_id" value="org.eclipse.debug.ui.breakpointWorkingSet"/>
 <attrib name="message" value="Line breakpoint: rpl-dag.c [line: 1346]"/>
 <attrib name="registered" value="true"/>
+<<<<<<< HEAD
 <attrib name="path" value="/BRTOS_FRDM_KL25Z/contiki/core/net/rpl/rpl-dag.c"/>
 <attrib name="org.eclipse.cdt.debug.core.sourceHandle" value="C:\Users\gusta\Documents\Git\BRTOSicslowpan\brtos-contiki-official-Border_Router\contiki\core\net\rpl\rpl-dag.c"/>
+=======
+<attrib name="path" value="/BRTOS_FRDM_KL25Z/contiki/platform/mrf24j40/mrf24j40.c"/>
+<attrib name="org.eclipse.cdt.debug.core.sourceHandle" value="C:\Users\Steppenwolf\OneDrive\Documentos\TCC1\brtos_contiki_backup_official\brtos-contiki-official-Border_Router\contiki\platform\mrf24j40\mrf24j40.c"/>
+>>>>>>> fb5f273e4af167265dcffef5d763d1d7531fe18b
 <attrib name="org.eclipse.cdt.debug.core.ignoreCount" value="0"/>
 <attrib name="org.eclipse.debug.core.enabled" value="true"/>
 </marker>
