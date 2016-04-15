@@ -86,7 +86,11 @@
 static struct uip_udp_conn *client_conn;
 /*---------------------------------------------------------------------------*/
 PROCESS(udp_client_process, "UDP client process");
-AUTOSTART_PROCESSES(&resolv_process,&udp_client_process);
+//AUTOSTART_PROCESSES(&resolv_process,&udp_client_process);
+void start_udp_client_task(void){
+	process_start(&resolv_process, NULL);
+	process_start(&udp_client_process, NULL);
+}
 /*---------------------------------------------------------------------------*/
 static void
 tcpip_handler(void)

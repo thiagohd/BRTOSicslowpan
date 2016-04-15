@@ -62,7 +62,7 @@ int strcasecmp(const char*, const char*);
 #endif
 
 #ifndef PROJECT_CONF_H
-#define PROJECT_CONF_H 		0
+#define PROJECT_CONF_H 		1
 #endif
 
 #if PROJECT_CONF_H

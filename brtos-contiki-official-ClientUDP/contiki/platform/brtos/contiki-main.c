@@ -196,7 +196,8 @@ int another_net(void) {
 	procinit_init();
 
 	autostart_start(autostart_processes);
-
+	start_udp_client_task();
+	//start_web_sense_server_task();
 	PRINTF("Processes running\n");
 
 	OSSemBinaryCreate(0, &Contiki_Sem);
