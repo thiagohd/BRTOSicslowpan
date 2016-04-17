@@ -213,7 +213,7 @@ int another_net(void) {
 			n = process_run();
 		} while (n > 0);
 
-		//OSSemPend(Contiki_Sem, 0);
+		OSSemPend(Contiki_Sem, 0);
 	}
 }
 /*****************************************************************************/
