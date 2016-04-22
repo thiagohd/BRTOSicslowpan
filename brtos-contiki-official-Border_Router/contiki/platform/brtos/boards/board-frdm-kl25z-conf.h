@@ -73,7 +73,7 @@
 //#define UIP_CONF_RECEIVE_WINDOW			UIP_CONF_BUFFER_SIZE - 60
 
 // Hack para otimizar conexões TCP
-#define UIP_CONF_TCP_SPLIT            	1
+#define UIP_CONF_TCP_SPLIT            	0
 #define UIP_SPLIT_CONF_SIZE				8
 #define UIP_CONF_LOGGING              	1
 #define UIP_CONF_IP_FORWARD           	0
@@ -89,13 +89,13 @@
 #define UIP_CONF_ROUTER 				1	// Determina o dispositivo como sendo roteador
 #define UIP_CONF_IPV6_QUEUE_PKT       	1	// Do we do per neighbor queuing during address resolution?
 #define UIP_CONF_IPV6_CHECKS          	1	// Do we do IPv6 consistency checks?
-#define UIP_CONF_IPV6_REASSEMBLY      	1	// Do we do IPv6 fragmentation?
+#define UIP_CONF_IPV6_REASSEMBLY      	0	// Do we do IPv6 fragmentation?
 #define UIP_CONF_NETIF_MAX_ADDRESSES 	3	// Default number of IPv6 addresses associated to the node's interface
 #define UIP_CONF_DS6_DEFRT_NBU   		2	// Minimum number of default routers
 #define UIP_CONF_DS6_PREFIX_NBU  		2	// Default number of IPv6 prefixes associated to the node's interface
 #define UIP_CONF_MAX_ROUTES   			10
-#define UIP_CONF_DS6_ADDR_NBU    		4
-#define UIP_CONF_DS6_MADDR_NBU   		2	// Habilita o dispositivo a se juntar a 2 grupos de multicast
+#define UIP_CONF_DS6_ADDR_NBU    		5
+#define UIP_CONF_DS6_MADDR_NBU   		5	// Habilita o dispositivo a se juntar a 2 grupos de multicast
 #define UIP_CONF_DS6_AADDR_NBU   		0	//
 #define NETSTACK_CONF_NETWORK			sicslowpan_driver//null_network_driver //sicslowpan_driver //rime_driver
 #define NETSTACK_CONF_FRAMER			framer_802154
@@ -117,9 +117,9 @@
 
 #define LINKADDR_CONF_SIZE				8
 
-#define MMEM_CONF_SIZE					1024
+#define MMEM_CONF_SIZE					4096
 #define IP64_ADDRMAP_CONF_ENTRIES 		8
-#define PROCESS_CONF_NUMEVENTS			10
+#define PROCESS_CONF_NUMEVENTS			8
 
 #define RESOLV_CONF_SUPPORTS_MDNS				0
 #define RESOLV_CONF_SUPPORTS_RECORD_EXPIRATION 	0
@@ -133,11 +133,11 @@
 /* Not used but avoids compile errors while sicslowpan.c is being developed */
 #define SICSLOWPAN_CONF_COMPRESSION             SICSLOWPAN_COMPRESSION_HC06
 #define SICSLOWPAN_CONF_MAX_ADDR_CONTEXTS       2 // If we use IPHC compression, how many address contexts do we support
-#define SICSLOWPAN_CONF_COMPRESSION_THRESHOLD   63
+#define SICSLOWPAN_CONF_COMPRESSION_THRESHOLD   0
 #define SICSLOWPAN_CONF_FRAG                    1 // Do we support 6lowpan fragmentation?
-#define SICSLOWPAN_CONF_MAXAGE                  8 // Contiki 2.6 default = 20. Timeout in seconds for packet reassembly at the 6lowpan layer (should be < 60s)
+#define SICSLOWPAN_CONF_MAXAGE                  1 // Contiki 2.6 default = 20. Timeout in seconds for packet reassembly at the 6lowpan layer (should be < 60s)
 /* General configuration options */
-#define UIP_CONF_STATISTICS                     0
+#define UIP_CONF_STATISTICS                    	1
 #define UIP_CONF_LOGGING                        0
 #define UIP_CONF_BROADCAST                      1
 //#define UIP_CONF_LLH_LEN                        0
