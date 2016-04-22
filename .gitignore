@@ -56,3 +56,5 @@ BRTOS_FRDM_KL25Z
 /brtos-contiki-official-Border_Router/boards/FRDM_KL25Z_CoIDE/BRTOS_FRDM_KL25Z.comarker
 =======
 >>>>>>> fb5f273e4af167265dcffef5d763d1d7531fe18b
+*.cogui
+*.coproj
