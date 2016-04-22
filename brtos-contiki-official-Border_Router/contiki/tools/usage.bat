@@ -1,1 +1,1 @@
-wpcapslip6.exe -v -s COM7 -b aaaa:: 02-00-4c-4f-4f-50
+wpcapslip6.exe -v -s COM6 -b aaaa:: 02-00-4c-4f-4f-50
