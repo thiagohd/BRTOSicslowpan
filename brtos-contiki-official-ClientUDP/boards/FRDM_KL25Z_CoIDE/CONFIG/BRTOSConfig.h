@@ -128,7 +128,7 @@
 
 /// Stack Defines
 /// 4KB of RAM: 19 * 128 bytes = 2.4KB of Virtual Stack
-#define HEAP_SIZE 15*128
+#define HEAP_SIZE 20*128
 
 // Queue heap defines
 // Configurado com 256 bytes p/ filas

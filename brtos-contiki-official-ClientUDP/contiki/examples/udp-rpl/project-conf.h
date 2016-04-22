@@ -31,17 +31,21 @@
 #ifndef PROJECT_RPL_WEB_CONF_H_
 #define PROJECT_RPL_WEB_CONF_H_
 
-#undef QUEUEBUF_CONF_NUM
-#define QUEUEBUF_CONF_NUM          5
+#ifndef QUEUEBUF_CONF_NUM
+#define QUEUEBUF_CONF_NUM          8
+#endif
 
-#undef UIP_CONF_BUFFER_SIZE
-#define UIP_CONF_BUFFER_SIZE    140
+#ifndef UIP_CONF_BUFFER_SIZE
+#define UIP_CONF_BUFFER_SIZE    512
+#endif
 
-#undef UIP_CONF_RECEIVE_WINDOW
+#ifndef UIP_CONF_RECEIVE_WINDOW
 #define UIP_CONF_RECEIVE_WINDOW  60
+#endif
 
-#undef WEBSERVER_CONF_CFS_CONNS
+#ifndef WEBSERVER_CONF_CFS_CONNS
 #define WEBSERVER_CONF_CFS_CONNS 2
+#endif
 
 /* Reserve space for a file name (default is to not use file name) */
 #undef WEBSERVER_CONF_CFS_PATHLEN
