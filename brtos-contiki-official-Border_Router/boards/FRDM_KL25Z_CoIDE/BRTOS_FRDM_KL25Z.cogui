@@ -233,6 +233,9 @@
 <viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
 <expanded>
 <element path="/BRTOS_FRDM_KL25Z"/>
+<element path="/BRTOS_FRDM_KL25Z/contiki"/>
+<element path="/BRTOS_FRDM_KL25Z/contiki/core"/>
+<element path="/BRTOS_FRDM_KL25Z/contiki/core/lib"/>
 </expanded>
 <selection>
 <element path="/BRTOS_FRDM_KL25Z"/>
@@ -251,7 +254,6 @@
 <view id="org.eclipse.search.ui.views.SearchView" partName="Search">
 <viewState isPinned="false">
 <view IMemento.internal.id="" org.eclipse.search.lastActivation="0"/>
-<view IMemento.internal.id="org.eclipse.search.text.FileSearchResultPage" org.eclipse.search.lastActivation="1" org.eclipse.search.resultpage.layout="2" org.eclipse.search.resultpage.limit="1000" org.eclipse.search.resultpage.sorting="2"/>
 </viewState>
 </view>
 <view id="org.eclipse.debug.ui.DebugView" partName="Debug">
@@ -464,7 +466,6 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BRTOS_FRDM_KL25Z/CONFIG/BRTOSConfig.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BRTOS_FRDM_KL25Z/contiki/examples/rpl-border-router/slip-bridge.c"/>
 <editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor">
 <org.coocox.builder.ui.editors.ConfigEditor/>
@@ -492,149 +493,150 @@
 <editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor">
 <org.coocox.builder.ui.editors.ConfigEditor/>
 </editor>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BRTOS_FRDM_KL25Z/contiki/core/lib/random.c"/>
 </editors>
-<item historyLabel="BRTOSConfig.h" index="0">
-<position info="not_deleted" x="3968" y="15"/>
-</item>
-<item historyLabel="slip-bridge.c" index="1">
-<position info="not_deleted" x="2045" y="0"/>
-</item>
-<item historyLabel="Configuration" index="2"/>
-<item historyLabel="slip-bridge.c" index="1">
+<item historyLabel="Configuration" index="1"/>
+<item historyLabel="slip-bridge.c" index="0">
 <position info="not_deleted" x="2065" y="0"/>
 </item>
-<item historyLabel="uip-debug.h" index="3">
+<item historyLabel="uip-debug.h" index="2">
 <position/>
 </item>
-<item historyLabel="slip-bridge.c" index="1">
+<item historyLabel="slip-bridge.c" index="0">
 <position info="not_deleted" x="2453" y="0"/>
 </item>
-<item historyLabel="uip-debug.h" index="3">
+<item historyLabel="uip-debug.h" index="2">
 <position/>
 </item>
-<item historyLabel="slip-bridge.c" index="1">
+<item historyLabel="slip-bridge.c" index="0">
 <position info="not_deleted" x="2453" y="0"/>
 </item>
-<item historyLabel="uip-debug.h" index="3">
+<item historyLabel="uip-debug.h" index="2">
 <position/>
 </item>
-<item historyLabel="printf_lib.c" index="4">
+<item historyLabel="printf_lib.c" index="3">
 <position info="not_deleted" x="2" y="0"/>
 </item>
-<item historyLabel="uip-debug.h" index="3">
+<item historyLabel="uip-debug.h" index="2">
 <position/>
 </item>
-<item historyLabel="slip-bridge.c" index="1">
+<item historyLabel="slip-bridge.c" index="0">
 <position info="not_deleted" x="2068" y="0"/>
 </item>
-<item historyLabel="uip-debug.h" index="3">
+<item historyLabel="uip-debug.h" index="2">
 <position info="not_deleted" x="2108" y="11"/>
 </item>
-<item historyLabel="slip-bridge.c" index="1">
+<item historyLabel="slip-bridge.c" index="0">
 <position info="not_deleted" x="2068" y="0"/>
 </item>
-<item historyLabel="slip-bridge.c" index="1">
+<item historyLabel="slip-bridge.c" index="0">
 <position info="not_deleted" x="2121" y="0"/>
 </item>
-<item historyLabel="slip-bridge.c" index="1">
+<item historyLabel="slip-bridge.c" index="0">
 <position info="not_deleted" x="2055" y="5"/>
 </item>
-<item historyLabel="board-frdm-kl25z-conf.h" index="5">
+<item historyLabel="board-frdm-kl25z-conf.h" index="4">
 <position info="not_deleted" x="948" y="0"/>
 </item>
-<item historyLabel="printf_lib.c" index="6">
+<item historyLabel="printf_lib.c" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="BoardConfig.h" index="7">
+<item historyLabel="BoardConfig.h" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="printf_lib.c" index="6">
+<item historyLabel="printf_lib.c" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="BRTOS.c" index="8">
+<item historyLabel="BRTOS.c" index="7">
 <position info="not_deleted" x="416" y="0"/>
 </item>
-<item historyLabel="printf_lib.c" index="6">
+<item historyLabel="printf_lib.c" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main_app.c" index="9">
+<item historyLabel="main_app.c" index="8">
 <position info="not_deleted" x="2574" y="0"/>
 </item>
-<item historyLabel="printf_lib.c" index="6">
+<item historyLabel="printf_lib.c" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="httpd-simple.c" index="10">
+<item historyLabel="httpd-simple.c" index="9">
 <position info="not_deleted" x="942" y="0"/>
 </item>
-<item historyLabel="main_app.c" index="9">
+<item historyLabel="main_app.c" index="8">
 <position info="not_deleted" x="351" y="0"/>
 </item>
-<item historyLabel="slip-bridge.c" index="1">
+<item historyLabel="slip-bridge.c" index="0">
 <position info="not_deleted" x="2377" y="0"/>
 </item>
-<item historyLabel="HAL.c" index="11">
+<item historyLabel="HAL.c" index="10">
 <position info="not_deleted" x="8505" y="18"/>
 </item>
-<item historyLabel="HAL.h" index="12">
+<item historyLabel="HAL.h" index="11">
 <position info="not_deleted" x="609" y="0"/>
 </item>
-<item historyLabel="HAL.c" index="11">
+<item historyLabel="HAL.c" index="10">
 <position info="not_deleted" x="8505" y="18"/>
 </item>
-<item historyLabel="BoardConfig.h" index="13">
+<item historyLabel="BoardConfig.h" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="BRTOSConfig.h" index="14">
+<item historyLabel="BRTOSConfig.h" index="13">
 <position info="not_deleted" x="3585" y="0"/>
 </item>
-<item historyLabel="hardware.h" index="15">
+<item historyLabel="hardware.h" index="14">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="BoardConfig.h" index="13">
+<item historyLabel="BoardConfig.h" index="12">
 <position info="not_deleted" x="225" y="0"/>
 </item>
-<item historyLabel="Configuration" index="16"/>
-<item historyLabel="BoardConfig.h" index="13">
+<item historyLabel="Configuration" index="15"/>
+<item historyLabel="BoardConfig.h" index="12">
 <position info="not_deleted" x="357" y="0"/>
 </item>
-<item historyLabel="tasks.c" index="17">
+<item historyLabel="tasks.c" index="16">
 <position info="not_deleted" x="1878" y="0"/>
 </item>
-<item historyLabel="tasks.h" index="18">
+<item historyLabel="tasks.h" index="17">
 <position info="not_deleted" x="1297" y="0"/>
 </item>
-<item historyLabel="tasks.c" index="17">
+<item historyLabel="tasks.c" index="16">
 <position info="not_deleted" x="1790" y="0"/>
 </item>
-<item historyLabel="BRTOSConfig.h" index="14">
+<item historyLabel="BRTOSConfig.h" index="13">
 <position info="not_deleted" x="3888" y="6"/>
 </item>
-<item historyLabel="BoardConfig.h" index="13">
+<item historyLabel="BoardConfig.h" index="12">
 <position info="not_deleted" x="6504" y="0"/>
 </item>
-<item historyLabel="system.c" index="19">
+<item historyLabel="system.c" index="18">
 <position info="not_deleted" x="4096" y="0"/>
 </item>
-<item historyLabel="BoardConfig.h" index="13">
+<item historyLabel="BoardConfig.h" index="12">
 <position info="not_deleted" x="6506" y="0"/>
 </item>
-<item historyLabel="system.c" index="19">
+<item historyLabel="system.c" index="18">
 <position info="not_deleted" x="4199" y="0"/>
 </item>
-<item historyLabel="uip-debug.h" index="20">
+<item historyLabel="uip-debug.h" index="19">
 <position info="not_deleted" x="2711" y="0"/>
 </item>
-<item historyLabel="BRTOSConfig.h" index="14">
+<item historyLabel="BRTOSConfig.h" index="13">
 <position info="not_deleted" x="793" y="0"/>
 </item>
-<item historyLabel="Configuration" index="21"/>
-<item historyLabel="BRTOSConfig.h" index="14">
+<item historyLabel="Configuration" index="20"/>
+<item historyLabel="BRTOSConfig.h" index="13">
 <position info="not_deleted" x="3988" y="0"/>
 </item>
-<item historyLabel="uip-debug.h" index="20">
+<item historyLabel="uip-debug.h" index="19">
 <position info="not_deleted" x="3104" y="0"/>
 </item>
-<item active="true" historyLabel="system.c" index="19">
+<item historyLabel="system.c" index="18">
+<position info="not_deleted" x="4199" y="0"/>
+</item>
+<item historyLabel="random.c" index="21">
+<position info="not_deleted" x="2057" y="0"/>
+</item>
+<item active="true" historyLabel="system.c" index="18">
 <position info="not_deleted" x="4199" y="0"/>
 </item>
 </navigationHistory>
@@ -644,10 +646,11 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
-<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor" name="" tooltip="">
-<persistable>
-<org.coocox.builder.ui.editors.ConfigEditor/>
-</persistable>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="random.c" tooltip="BRTOS_FRDM_KL25Z/contiki/core/lib/random.c">
+<persistable path="/BRTOS_FRDM_KL25Z/contiki/core/lib/random.c"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="BRTOS_FRDM_KL25Z.coproj" tooltip="C:\Users\gusta\Documents\Git\BRTOSicslowpan\brtos-contiki-official-Border_Router\boards\FRDM_KL25Z_CoIDE\BRTOS_FRDM_KL25Z.coproj">
+<persistable uri="file:/C:/Users/gusta/Documents/Git/BRTOSicslowpan/brtos-contiki-official-Border_Router/boards/FRDM_KL25Z_CoIDE/BRTOS_FRDM_KL25Z.coproj"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="uip-debug.h" tooltip="BRTOS_FRDM_KL25Z/contiki/core/net/ip/uip-debug.h">
 <persistable path="/BRTOS_FRDM_KL25Z/contiki/core/net/ip/uip-debug.h"/>
@@ -661,19 +664,11 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tasks.c" tooltip="BRTOS_FRDM_KL25Z/tasks.c">
 <persistable path="/BRTOS_FRDM_KL25Z/tasks.c"/>
 </file>
-<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor" name="" tooltip="">
-<persistable>
-<org.coocox.builder.ui.editors.ConfigEditor/>
-</persistable>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="hardware.h" tooltip="BRTOS_FRDM_KL25Z/CONFIG/hardware.h">
 <persistable path="/BRTOS_FRDM_KL25Z/CONFIG/hardware.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="BoardConfig.h" tooltip="BRTOS_FRDM_KL25Z/CONFIG/BoardConfig.h">
 <persistable path="/BRTOS_FRDM_KL25Z/CONFIG/BoardConfig.h"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="BRTOS_FRDM_KL25Z.coproj" tooltip="C:\Users\gusta\Documents\Git\BRTOSicslowpan\brtos-contiki-official-Border_Router\boards\FRDM_KL25Z_CoIDE\BRTOS_FRDM_KL25Z.coproj">
-<persistable uri="file:/C:/Users/gusta/Documents/Git/BRTOSicslowpan/brtos-contiki-official-Border_Router/boards/FRDM_KL25Z_CoIDE/BRTOS_FRDM_KL25Z.coproj"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="HAL.h" tooltip="BRTOS_FRDM_KL25Z/hal/HAL.h">
 <persistable path="/BRTOS_FRDM_KL25Z/hal/HAL.h"/>
@@ -690,8 +685,11 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="HAL.h" tooltip="stm32f429_project/HAL/HAL.h">
 <persistable path="/stm32f429_project/HAL/HAL.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="HAL.c" tooltip="stm32f429_project/HAL/HAL.c">
-<persistable path="/stm32f429_project/HAL/HAL.c"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="uip-debug.h" tooltip="BRTOS_FRDM_KL25Z/contiki/core/net/ip/uip-debug.h">
+<persistable path="/BRTOS_FRDM_KL25Z/contiki/core/net/ip/uip-debug.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system.c" tooltip="BRTOS_FRDM_KL25Z/Drivers/system.c">
+<persistable path="/BRTOS_FRDM_KL25Z/Drivers/system.c"/>
 </file>
 </mruList>
 </workbench>
