@@ -23,6 +23,11 @@ BRTOS_Sem   *SerialTX2;
 // Declara um ponteiro para o bloco de controle da Porta Serial
 BRTOS_Queue  *Serial2;
 
+#include "slip.h"
+extern BRTOS_Sem *Contiki_Sem;
+
+unsigned char buffer_rcvd[UIP_CONF_BUFFER_SIZE];
+unsigned char buffer_rcvd_i = 0;
 
 unsigned long USART0IntHandler(void *pvCBData,
         unsigned long ulEvent,
@@ -35,11 +40,17 @@ unsigned long USART0IntHandler(void *pvCBData,
 	{
 		receive_byte = xHWREGB(UART0_BASE + UART_012_D);
 
+		if (slip_input_byte(receive_byte) == 1) OSSemPost(Contiki_Sem);
+
+		buffer_rcvd[buffer_rcvd_i++]=receive_byte;
+
+#if 0
 		if (OSQueuePost(Serial0, receive_byte) == BUFFER_UNDERRUN)
 		{
 			// Problema: Estouro de buffer
 			OSQueueClean(Serial0);
 		}
+#endif
 	}
 
 	if ((ulEvent & UART_EVENT_TC) == UART_EVENT_TC)

@@ -40,16 +40,15 @@
 void
 random_init(unsigned short seed)
 {
-  //srand(seed);
+  srand(seed);
 }
 /*---------------------------------------------------------------------------*/
+
 unsigned short
 random_rand(void)
 {
 /* In gcc int rand() uses RAND_MAX and long random() uses RANDOM_MAX=0x7FFFFFFF */
 /* RAND_MAX varies depending on the architecture */
-
-  //return (unsigned short)rand();
-	return 1;
+  return (unsigned short)rand();
 }
 /*---------------------------------------------------------------------------*/

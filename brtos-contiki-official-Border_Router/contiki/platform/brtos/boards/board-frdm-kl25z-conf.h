@@ -79,7 +79,7 @@
 #define UIP_CONF_IP_FORWARD           	0
 
 // Número de buffers de fila utilizados pela NETSTACK, quanto mais melhor.
-#define QUEUEBUF_CONF_NUM				16
+#define QUEUEBUF_CONF_NUM				10
 
 /*
  * Configurações básicas para NETSTACK com IPv6
