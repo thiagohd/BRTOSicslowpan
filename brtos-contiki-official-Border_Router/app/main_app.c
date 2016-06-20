@@ -27,9 +27,9 @@ extern "C"
  *****************************************************************************/
 // Se estiver usando USB no SLIP, usa UART no debug e vice-versa
 #if (BRTOS_PLATFORM == BOARD_FRDM_KL25Z)
-#if (SLIP_COMM == SLIP_USB)
+//#if (SLIP_COMM == SLIP_USB)
 #include "uart.h"
-#endif
+//#endif
 
 #if (SLIP_COMM == SLIP_UART)
 //#include "virtual_com.h"
@@ -49,12 +49,12 @@ void main_app(void) {
 	// Initialize BRTOS
 	BRTOS_Init();
 
-	if (InstallTask(&System_Time, "System Time", 192, 31, NULL) != OK) {
+	if (InstallTask(&System_Time, "System Time", 192, 31, (OS_CPU_TYPE*)NULL) != OK) {
 		while (1) {
 		};
 	};
 
-	if (InstallTask(&contiki_main, "Contiki", (1024 + 512), 2, NULL) != OK) {
+	if (InstallTask(&contiki_main, "Contiki", (1024 + 512), 2, (OS_CPU_TYPE*)NULL) != OK) {
 		while (1) {
 		};
 	};
