@@ -134,7 +134,7 @@
 
 
 /// Stack Defines
-#define HEAP_SIZE 			15*128
+#define HEAP_SIZE 			17*128
 
 // Queue heap defines
 #define QUEUE_HEAP_SIZE 	64

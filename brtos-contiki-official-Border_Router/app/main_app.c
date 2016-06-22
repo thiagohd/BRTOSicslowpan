@@ -54,7 +54,7 @@ void main_app(void) {
 		};
 	};
 
-	if (InstallTask(&contiki_main, "Contiki", (1024 + 512), 2, (OS_CPU_TYPE*)NULL) != OK) {
+	if (InstallTask(&contiki_main, "Contiki", (1024 + 768), 2, (OS_CPU_TYPE*)NULL) != OK) {
 		while (1) {
 		};
 	};

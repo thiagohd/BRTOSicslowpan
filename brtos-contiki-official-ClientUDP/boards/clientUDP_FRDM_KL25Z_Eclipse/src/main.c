@@ -55,6 +55,7 @@ int main(void)
 {
   // Init system clock
   //xSysCtlClockSet(48000000, xSYSCTL_XTAL_8MHZ | xSYSCTL_OSC_MAIN);
+  void SystemInit(void);
   SystemInit();
 
   // Initialize system and tasks

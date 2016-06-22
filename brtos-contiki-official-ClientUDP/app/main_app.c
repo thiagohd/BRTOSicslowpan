@@ -56,7 +56,7 @@ void main_app(void)
 		while (1){};
 	};
 
-	if (InstallTask(&contiki_main, "Contiki", 1024 + 512, 2, NULL) != OK)
+	if (InstallTask(&contiki_main, "Contiki", 1024 + 768, 2, NULL) != OK)
 	{
 		while (1){};
 	};
@@ -69,6 +69,7 @@ void main_app(void)
 
 #if (SLIP_COMM == SLIP_UART)
 	//USB_Init();
+	void Init_UART0(int baud, int buffer_size);
 	Init_UART0(115200, 0);
 	//(void)cdc_Init(); /* Initialize the USB CDC Application */
 #endif
