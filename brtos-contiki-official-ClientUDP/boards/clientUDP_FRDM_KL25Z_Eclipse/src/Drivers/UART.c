@@ -82,8 +82,6 @@ unsigned long USART0IntHandler(void *pvCBData,
 			}
 		}
 	}
-
-	return 0;
 }
 
 unsigned long USART1IntHandler(void *pvCBData,
@@ -265,14 +263,13 @@ void Init_UART0(int baud, int buffer_size)
 		};
 	}
 
-	xIntEnable(28);
-
 	UARTIntEnable(UART0_BASE, UART_INT_R);
-	UARTIntDisable(UART0_BASE, UART_INT_TC);
 	UARTIntCallbackInit(UART0_BASE, UART0_INT_HANDLE);
 
 	// Enable UART Receive and Transmit
 	UARTEnable(UART0_BASE, UART_TX | UART_RX);
+
+	xIntEnable(28);
 }
 
 

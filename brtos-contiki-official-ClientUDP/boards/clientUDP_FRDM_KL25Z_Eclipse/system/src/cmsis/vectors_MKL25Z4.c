@@ -123,67 +123,66 @@ __attribute__ ((section(".isr_vector"),used))
 pHandler gHandlers[] =
   {
   // Core Level - CM0
-      (pHandler) &_estack, // The initial stack pointer
-      Reset_Handler, // The reset handler
+	  (pHandler) &_estack, // The initial stack pointer
+	  Reset_Handler, // The reset handler
 
-      NMI_Handler, // The NMI handler
-      HardFault_Handler, // The hard fault handler
+	  NMI_Handler, // The NMI handler
+	  HardFault_Handler, // The hard fault handler
 #if defined(__ARM_ARCH_7M__) || defined(__ARM_ARCH_7EM__)
-      MemManage_Handler,                        // The MPU fault handler
-      BusFault_Handler,                        // The bus fault handler
-      UsageFault_Handler,                        // The usage fault handler
+	  MemManage_Handler,                        // The MPU fault handler
+	  BusFault_Handler,                        // The bus fault handler
+	  UsageFault_Handler,                        // The usage fault handler
 #else
-      0, 0, 0,                                  // Reserved
+	  0, 0, 0,                                  // Reserved
 #endif
-      0,                                        // Reserved
-      0,                                        // Reserved
-      0,                                        // Reserved
-      0,                                        // Reserved
+	  0,                                        // Reserved
+	  0,                                        // Reserved
+	  0,                                        // Reserved
+	  0,                                        // Reserved
 	  SwitchContextToFirstTask,                 // SVCall handler
 #if defined(__ARM_ARCH_7M__) || defined(__ARM_ARCH_7EM__)
-      DebugMon_Handler,                         // Debug monitor handler
+	  DebugMon_Handler,                         // Debug monitor handler
 #else
-      0,                                        // Reserved
+	  0,                                        // Reserved
 #endif
-      0, // Reserved
+	  0, // Reserved
 	  SwitchContext, // The PendSV handler
 	  TickTimer, // The SysTick handler
 
-      // ----------------------------------------------------------------------
-      // Chip Level - KL25
-      DMA0_IRQHandler, // DMA channel 0 transfer complete/error interrupt
-      DMA1_IRQHandler, // DMA channel 1 transfer complete/error interrupt
-      DMA2_IRQHandler, // DMA channel 2 transfer complete/error interrupt
-      DMA3_IRQHandler, // DMA channel 3 transfer complete/error interrupt
-      Reserved20_IRQHandler, // Reserved interrupt 20
-      FTFA_IRQHandler, // FTFA command complete/read collision interrupt
-      LVD_LVW_IRQHandler, // Low Voltage Detect, Low Voltage Warning
-      LLW_IRQHandler, // Low Leakage Wakeup
-      I2C0_IRQHandler, // I2C0 interrupt
-      I2C1_IRQHandler, // I2C0 interrupt 25
-      SPI0_IRQHandler, // SPI0 interrupt
-      SPI1_IRQHandler, // SPI1 interrupt
+	  // ----------------------------------------------------------------------
+	  // Chip Level - KL25
+	  DMA0_IRQHandler, // DMA channel 0 transfer complete/error interrupt
+	  DMA1_IRQHandler, // DMA channel 1 transfer complete/error interrupt
+	  DMA2_IRQHandler, // DMA channel 2 transfer complete/error interrupt
+	  DMA3_IRQHandler, // DMA channel 3 transfer complete/error interrupt
+	  Reserved20_IRQHandler, // Reserved interrupt 20
+	  FTFA_IRQHandler, // FTFA command complete/read collision interrupt
+	  LVD_LVW_IRQHandler, // Low Voltage Detect, Low Voltage Warning
+	  LLW_IRQHandler, // Low Leakage Wakeup
+	  I2C0_IRQHandler, // I2C0 interrupt
+	  I2C1_IRQHandler, // I2C0 interrupt 25
+	  SPI0_IRQHandler, // SPI0 interrupt
+	  SPI1_IRQHandler, // SPI1 interrupt
 	  UART0SEIntHandler, // UART0 status/error interrupt
-      UART1_IRQHandler, // UART1 status/error interrupt
-      UART2_IRQHandler, // UART2 status/error interrupt
-      ADC0_IRQHandler, // ADC0 interrupt
-      CMP0_IRQHandler, // CMP0 interrupt
-      TPM0_IRQHandler, // TPM0 fault, overflow and channels interrupt
-      TPM1_IRQHandler, // TPM1 fault, overflow and channels interrupt
-      TPM2_IRQHandler, // TPM2 fault, overflow and channels interrupt
-      RTC_IRQHandler, // RTC interrupt
-      RTC_Seconds_IRQHandler, // RTC seconds interrupt
-      PIT_IRQHandler, // PIT timer interrupt
-      Reserved39_IRQHandler, // Reserved interrupt 39
-      USB0_IRQHandler, // USB0 interrupt
-      DAC0_IRQHandler, // DAC0 interrupt
-      TSI0_IRQHandler, // TSI0 interrupt
-      MCG_IRQHandler, // MCG interrupt
-      LPTimer_IRQHandler, // LPTimer interrupt
-      Reserved45_IRQHandler, // Reserved interrupt 45
-      PORTA_IRQHandler, // Port A interrupt
+	  UART1_IRQHandler, // UART1 status/error interrupt
+	  UART2_IRQHandler, // UART2 status/error interrupt
+	  ADC0_IRQHandler, // ADC0 interrupt
+	  CMP0_IRQHandler, // CMP0 interrupt
+	  TPM0_IRQHandler, // TPM0 fault, overflow and channels interrupt
+	  TPM1_IRQHandler, // TPM1 fault, overflow and channels interrupt
+	  TPM2_IRQHandler, // TPM2 fault, overflow and channels interrupt
+	  RTC_IRQHandler, // RTC interrupt
+	  RTC_Seconds_IRQHandler, // RTC seconds interrupt
+	  PIT_IRQHandler, // PIT timer interrupt
+	  Reserved39_IRQHandler, // Reserved interrupt 39
+	  USB0_IRQHandler, // USB0 interrupt
+	  DAC0_IRQHandler, // DAC0 interrupt
+	  TSI0_IRQHandler, // TSI0 interrupt
+	  MCG_IRQHandler, // MCG interrupt
+	  LPTimer_IRQHandler, // LPTimer interrupt
+	  Reserved45_IRQHandler, // Reserved interrupt 45
+	  PORTA_IRQHandler, // Port A interrupt
 	  Radio_Interrupt, // Port D interrupt
-      //PORTD_IRQHandler, // Port D interrupt
 
       VECTOR_PADDING,
       VECTOR_PADDING,

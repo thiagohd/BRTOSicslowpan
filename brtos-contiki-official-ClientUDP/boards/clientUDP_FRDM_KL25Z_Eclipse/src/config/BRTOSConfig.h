@@ -44,7 +44,7 @@
 
 /// Define the maximum number of Tasks to be Installed
 /// must always be equal or higher to NumberOfInstalledTasks
-#define NUMBER_OF_TASKS 		8
+#define NUMBER_OF_TASKS 		12
 
 /// Enable or disable the dynamic task install and uninstall
 #define BRTOS_DYNAMIC_TASKS_ENABLED 0
@@ -98,11 +98,11 @@
 
 /// Defines the maximum number of semaphores\n
 /// Limits the memory allocation for semaphores
-#define BRTOS_MAX_SEM          4
+#define BRTOS_MAX_SEM          8
 
 /// Defines the maximum number of mutexes\n
 /// Limits the memory allocation for mutex
-#define BRTOS_MAX_MUTEX        2
+#define BRTOS_MAX_MUTEX        4
 
 /// Defines the maximum number of mailboxes\n
 /// Limits the memory allocation mailboxes
@@ -110,7 +110,7 @@
 
 /// Defines the maximum number of queues\n
 /// Limits the memory allocation for queues
-#define BRTOS_MAX_QUEUE        4
+#define BRTOS_MAX_QUEUE        6
 
 
 /// TickTimer Defines
@@ -134,11 +134,11 @@
 
 
 /// Stack Defines
-#define HEAP_SIZE 			15*128
+#define HEAP_SIZE 			17*128
 
 // Queue heap defines
-#define QUEUE_HEAP_SIZE 	64
+#define QUEUE_HEAP_SIZE 	0
 
 // Dynamic head define. To be used by DynamicInstallTask and Dynamic Queues
-#define DYNAMIC_HEAP_SIZE		1*128
+#define DYNAMIC_HEAP_SIZE		0
 

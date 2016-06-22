@@ -94,7 +94,9 @@ void BRTOS_TimerHook(void)
 		if (next_event == 0)
 		{
 			etimer_request_poll();
-			OSSemPost(Contiki_Sem);
+			if (Contiki_Sem != NULL){
+				OSSemPost(Contiki_Sem);
+			}
 		}
 	}
 }

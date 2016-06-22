@@ -62,13 +62,10 @@
 #define UIP_CONF_TCP                  	1
 
 // Número máximo de portas a serem escutadas
-#define UIP_CONF_MAX_LISTENPORTS      	5
-
-// Número máximo de conexões
-#define UIP_CONF_MAX_LISTENPORTS      	8
+#define UIP_CONF_MAX_LISTENPORTS      	3
 
 // Número de buffers de fila utilizados pela NETSTACK, quanto mais melhor.
-#define QUEUEBUF_CONF_NUM				12
+#define QUEUEBUF_CONF_NUM				8
 
 // Tamanho dos buffers
 #define UIP_CONF_BUFFER_SIZE          	(128*6)
